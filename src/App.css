@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    background-color: #121212; /* Dark background for the whole page */
+    color: #e0e0e0; /* Light gray text for readability */
+    font-family: 'Roboto', sans-serif; /* Modern, easy-to-read font */
+  }
+  
+  h2, .card-title {
+    color: #fff; /* White text for titles */
+  }
+  
+  /* Container */
+  .container {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #1a1a1a; /* Slightly darker background for content */
+  }
+  
+  /* Form Control */
+  .form-control {
+    background-color: #333; /* Dark background */
+    border-color: #555; /* Slightly lighter border for input fields */
+  }
+  
+  .form-control:focus {
+    background-color: #444; /* Lighter background when focused */
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow on focus */
+  }
+  
+  /* Button Styles */
+  button {
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth button transition */
+    border-radius: 5px; /* Rounded corners for buttons */
+  }
+  
+  button:hover {
+    background-color: #007bff; /* Blue hover effect for buttons */
+    transform: scale(1.05); /* Slight scaling effect */
+  }
+  
+  button:active {
+    background-color: #0056b3; /* Darker blue when the button is pressed */
+  }
+  
+  button svg {
+    margin-right: 8px;
+    transition: transform 0.2s ease; /* Smooth icon transition */
+  }
+  
+  button:hover svg {
+    transform: scale(1.1); /* Slightly scale up on hover */
+    color: #007bff; /* Change color of icons on hover */
+  }
+  
+  /* Card Styles */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    margin-bottom: 20px;
+    background-color: #333; /* Dark background for cards */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-header {
+    padding: 10px 15px; /* Adds some padding inside card header */
+  }
+  
+  /* Card Hover Effect */
+  .trip-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .trip-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Adding more shadow to enhance hover effect */
+  }
+  
+  /* Heading and Subtitle */
+  h2, .card-title {
+    color: #fff; /* White text for titles */
+  }
+  
+  .card-body, .form-control {
+    background-color: #1c1c1c; /* Darker background for cards and form controls */
+    color: #e0e0e0; /* Light text for input fields */
+  }
+  
+  .card-subtitle {
+    color: #bbb; /* Lighter color for subtitle */
+  }
+  
+  /* Spacing */
+  .mb-3 {
+    margin-bottom: 15px;
+  }
+  
+  .trip-card {
+    margin-bottom: 20px; /* Adds space between cards */
+  }
+  
