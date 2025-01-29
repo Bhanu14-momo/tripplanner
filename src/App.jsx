@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Button, Form, Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaEdit, FaTrash } from 'react-icons/fa'; // Adding icons for Edit and Delete
+import { FaEdit, FaTrash } from 'react-icons/fa'; 
+// Adding icons for Edit and Delete
+import ReactDOM from 'react-dom';
+import './index.css';
 
 const App = () => {
   const [trip, setTrip] = useState({ destination: '', date: '', activities: '' });
